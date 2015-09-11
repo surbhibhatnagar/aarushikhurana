@@ -1,0 +1,21 @@
+a:5:{i:0;s:1212:"Error in file: "/Applications/MAMP/htdocs/magento/app/code/core/Mage/Shipping/sql/shipping_setup/install-1.6.0.0.php" - SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'shipping_tablerate' already exists, query was: CREATE TABLE `shipping_tablerate` (
+  `pk` int UNSIGNED NOT NULL auto_increment COMMENT 'Primary key' ,
+  `website_id` int NOT NULL default '0' COMMENT 'Website Id' ,
+  `dest_country_id` varchar(4) NOT NULL default '0' COMMENT 'Destination coutry ISO/2 or ISO/3 code' ,
+  `dest_region_id` int NOT NULL default '0' COMMENT 'Destination Region Id' ,
+  `dest_zip` varchar(10) NOT NULL default '*' COMMENT 'Destination Post Code (Zip)' ,
+  `condition_name` varchar(20) NOT NULL COMMENT 'Rate Condition name' ,
+  `condition_value` decimal(12,4) NOT NULL default '0.0000' COMMENT 'Rate condition value' ,
+  `price` decimal(12,4) NOT NULL default '0.0000' COMMENT 'Price' ,
+  `cost` decimal(12,4) NOT NULL default '0.0000' COMMENT 'Cost' ,
+  PRIMARY KEY (`pk`),
+  UNIQUE `D60821CDB2AFACEE1566CFC02D0D4CAA` (`website_id`, `dest_country_id`, `dest_region_id`, `dest_zip`, `condition_name`, `condition_value`)
+) COMMENT='Shipping Tablerate' ENGINE=INNODB charset=utf8 COLLATE=utf8_general_ci";i:1;s:1024:"#0 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.6.0.0')
+#2 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.6.0.0')
+#3 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/App.php(428): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 /Applications/MAMP/htdocs/magento/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Model_App->_initModules()
+#6 /Applications/MAMP/htdocs/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /Applications/MAMP/htdocs/magento/index.php(83): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:44:"/magento/index.php/install/wizard/installDb/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:7:"default";}

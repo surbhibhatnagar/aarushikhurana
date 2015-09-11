@@ -1,0 +1,14 @@
+
+/**
+ * Copyright [2014] [Dexxtz]
+ *
+ * @package   Dexxtz_Scrolltop
+ * @author    Dexxtz
+ * @license   http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+.dextz-scrolltop { display: none; position: fixed; bottom: 0; text-decoration: none; }
+.dextz-scrolltop span { display: block;}
+.dextz-scrolltop img, .dextz-scrolltop span { border: 0 ; opacity: 0.85; }
+.dextz-scrolltop img:hover, .dextz-scrolltop span:hover { opacity: 1.0; }
+

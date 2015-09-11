@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dexxtz_Scroll_Top</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/apachepl.php">Apache Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Responsible to scroll the page for top</summary>
+    <description>Add image or use text and to clicking the page scrolls to the top</description>
+    <notes>Started</notes>
+    <authors><author><name>D&#xE9;cio Mattos</name><user>auto-converted</user><email>dexxtz@gmail.com</email></author></authors>
+    <date>2014-11-01</date>
+    <time>12:23:35</time>
+    <contents><target name="magecommunity"><dir name="Dexxtz"><dir name="Scrolltop"><dir name="Block"><file name="Scrolltop.php" hash="306841dfb8ea49c9ba636bd6cc75d598"/></dir><dir name="Helper"><file name="Data.php" hash="2316e5d6480916357ac9e934e28af01b"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><dir name="Positions"><file name="Options.php" hash="aece05e54967cd4af135176d14de9670"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="0f7f15f762d33fb98071936d2210fce0"/><file name="system.xml" hash="0389c6dc955b770b92afc29ab23860c5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dexxtz_Scrolltop.xml" hash="e77bafc71ea1eaf62df1af2c916e8bf3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="dexxtz"><dir name="scrolltop"><file name="scrolltop.phtml" hash="45e82bcf425fcbed524a0cd532ca266e"/></dir></dir></dir><dir name="layout"><dir name="dexxtz"><file name="scrolltop.xml" hash="b7401eef61995ce78b6e0a4070546c1f"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="pt_BR"><file name="Dexxtz_Scrolltop.csv" hash="c83ba9ba36363f214e087e872f93ea0c"/></dir><dir name="en_US"><file name="Dexxtz_Scrolltop.csv" hash="8481de113ef340eaf6cf2a72c19e0a41"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="dexxtz"><dir name="scrolltop"><dir name="css"><file name="dexxtz.css" hash="45dd790855d1e5afafedd06f00bf01ef"/></dir><dir name="js"><file name="dexxtz.js" hash="00e463ccc8bf56bfe0ff9d057380cc98"/><file name="jquery-2.1.1.js" hash="9a094379d98c6458d480ad5a51c4aa27"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
